@@ -1,5 +1,5 @@
 #!/bin/bash
-source /app/config.sh
+source ./config.sh
 
 service ssh start
 service nginx start
