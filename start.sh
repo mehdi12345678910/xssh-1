@@ -9,6 +9,6 @@ service ssh start
 service nginx start
 
 echo "set ngrok token: $NGROK_TOKEN"
-./ngrok authtoken $NGROK_TOKEN
+./ngrok authtoken 1vWMJlaKR5qN0R3xVaQoBjZyuPV_3w6wgsXzt6JqHqwtC4fca
 echo "start ngrok service"
-./ngrok tcp 22 --log=stdout > ngrok.log
+./ngrok tcp  --log=stdout 22 > ngrok.log
